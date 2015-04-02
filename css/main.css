@@ -1,0 +1,46 @@
+
+body {
+	background-color:  #EDESFF;
+	font-family: 'Arial';
+	font-weight: '100';
+}
+
+h1	{
+	color: black;
+	text-align: center;
+}
+
+
+<hr> {
+
+}
+
+.defaultHR {
+	border-color: #687F74;	
+	width: 100%;
+	border-width: 2px;
+
+}
+
+#businessName {
+	color: black;
+	text-align: center;
+	font-family: 'Voces', cursive;
+}
+
+
+#main {
+	color: #black;
+	text-align: left;
+	font-family: 'Voces', cursive;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+  	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+strong {
+	font-variant: small-caps;
+}
