@@ -5,9 +5,7 @@
 
 header {
   background-color: #ffdddf;
-  margin-top: 5px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -15,7 +13,7 @@ body {
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
   background-color: white;
-  padding: 10px 0px;
+  padding: 2px;
 }
 
 img {
@@ -26,8 +24,7 @@ img {
 nav {
   background-color: #3c4142;
   font-size: 1em;
-  box-sizing: border-box;
-  margin-top: 5px;
+  box-sizing: border-box; 
   height: 28px;
   display: inline-block;
   width: 100%;
@@ -83,10 +80,8 @@ h2 {
 
 #leftnav {
   background-color: #4E777F;
-  margin: 5px 5px 5px 0px;
-  padding-top: 5px;
   width: 168px;
-  height: 560px;
+  height: 480px;
   float: left;
 
 }
@@ -103,21 +98,18 @@ h2 {
 }
 
 #leftnavheader {
-  padding-left: 0px;
   padding-bottom: 3px;
   padding-top: 5px;
 }
 
-
 #leftnavcenter {
-  padding-left: 0px;
-  padding-bottom: 0px;
-  padding-top: 60px;
+  padding-top: 40px;
 }
+
 #leftnavfooter {
   padding-left: 0px;
   padding-bottom: 0px;
-  padding-top: 55px;
+  padding-top: 50px;
 }
 
 #search {
@@ -128,11 +120,17 @@ h2 {
 
 #slideshow {
   float: right;
-  width: 782px;
-  height: 560px;
+  width: 788px;
+  height: 480px;
   box-sizing: border-box;
   background-color: #3c4142;
-  margin-top: 5px;
+  border-left: 2px solid black;
+}
+
+#centerbloc {
+  font-family: Arial, sans-serif;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 /*Is there a way to apply float: left to the entire section?;*/
