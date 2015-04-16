@@ -59,6 +59,7 @@ h6 {
 margin-left: 10px;
 font-style: italic;
 padding-top: 3px;
+line-height: 17px;
 }
 
 h2 {
@@ -109,7 +110,7 @@ h2 {
 #leftnavfooter {
   padding-left: 0px;
   padding-bottom: 0px;
-  padding-top: 50px;
+  padding-top: 32px;
 }
 
 #search {
