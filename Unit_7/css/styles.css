@@ -1,0 +1,25 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+	padding: 20px;
+}
+
+img {
+	padding: 5px;
+	border-bottom: 1px solid black;
+}
