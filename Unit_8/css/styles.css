@@ -53,27 +53,27 @@ section {
 #engagement {
 	background-color: red;
 	width: 49%;
-  	display: inline-block;
-  	border: 1px solid black;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 #services {
 	border: 1px solid black;
 	background-color: yellow;
  	width: 49%;
-  	display: inline-block;
-  	float: right;
+  display: inline-block;
+  float: right;
 }
 
 #engagement_sub {
 	width: 49%;
-  	display: inline-block;
-  	margin: 20px;
+  display: inline-block;
+  margin: 20px;
 }
 
 #services_sub {
 	width: 49%;
-  	display: inline-block;
+  display: inline-block;
 	float: left;
 	margin: 20px;
 }
@@ -107,6 +107,7 @@ footer {
     display: inline-block;
     margin: 0 1em 1em;
     text-align: center;
+    padding: .1em;
     }
  }
 
@@ -121,12 +122,13 @@ footer {
     text-align: center;
     font-size: 1em;
     margin: .2em;
-   
   }
   
   nav a {
-  	font-size: 1em;
-  	padding: .5em;
+    display: inline-block;
+    margin: 0 1em 1em;
+    text-align: center;
+    padding: .1em;
   }
   
   h2 {
@@ -139,19 +141,17 @@ footer {
   	font-size: .75em;
   }
 
-  #engagment {
-  	margin: 0 auto;
-
-  }
-  #services {
-
-  	
-  	margin: 0 auto;
-  }
-
   section {
-  	width: 0 auto;
-  	margin: 0 auto;
+    width: 0 auto;
+    margin: 0 auto;
+  }
+
+  #engagment {
+  	width: 100%;
+  }
+
+  #services {
+    float: none;  	
   }
 
 }
