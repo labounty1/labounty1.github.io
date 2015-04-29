@@ -19,9 +19,10 @@ h2 {
 }
 
 nav {
+  display: inline-block;
   float: right;
   font-size: 1.5em;
-}
+ }
 
 nav a {
   text-decoration: none;
@@ -43,6 +44,7 @@ ul {
 
 header {
 	padding: 15px;
+	width: 100%;
 }
 
 section {
@@ -98,10 +100,17 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  h1, nav {
+  h1 {
     display: block;
     text-align: center;
   }
+
+ nav {
+ 	float: none;
+ 	width: 100%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
 
  nav a {
     display: inline-block;
@@ -112,7 +121,7 @@ footer {
 
  #engagement {
  	background-color: yellow;
- }
+ 	}
 
  }
 
