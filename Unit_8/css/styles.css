@@ -56,7 +56,7 @@ nav ul li:not(:first-of-type) {
    float: left;
    width: 49%;
    border: 1px solid black;
-   background-color: red;
+   background-color: #E8FBFF;
    display: inline-block;
 }
 
@@ -64,7 +64,7 @@ nav ul li:not(:first-of-type) {
    float: right;
    width: 49%;
    border: 1px solid black;
-   background-color: yellow;
+   background-color: #E8FBFF;
    display: inline-block;
 }
 
@@ -125,10 +125,6 @@ footer {
    nav ul li:not(:first-of-type) {
       padding-left: 0;
    }
-
-   #engagement {
-      background-color: yellow;
-   }
 }
 
 @media only screen and (max-width: 480px) {
@@ -139,13 +135,12 @@ footer {
    nav a {
     font-size: .5em;
    }
+
    #engagement {
-      background-color: red;
       width: 100%;
    }
 
    #services {
-      
       margin-top: .5em;
       width: 100%;
    }
