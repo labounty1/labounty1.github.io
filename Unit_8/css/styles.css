@@ -1,87 +1,85 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 35px;
+  margin: 2%;
+}
+
+header {
+   width: 100%;
 }
 
 h1 {
-  font-weight: 800;
-  text-transform: uppercase;
-  border-bottom: 4px solid black;
-  display: inline-block;
-  font-size: 2em;
+   font-weight: 800;
+   float: left;
+   width: 22%;
+   text-transform: uppercase;
+   display: inline-block;
+   font-size: 2em;
+}
+
+h1 span {
+   border-bottom: 4px solid black;
 }
 
 h2 {
-  font-weight: 800;
-  text-transform: uppercase;
-  display: block;
-  font-size: 1.5em;
+   font-weight: 800;
+   text-transform: uppercase;
+   display: block;
+   font-size: 1.5em;
 }
 
 nav {
-  display: inline-block;
-  float: right;
-  font-size: 1.5em;
- }
+   text-align: right;
+   display: inline-block;
+   float: left;
+   width: 78%;
+   font-size: 1.5em;
+}
 
 nav a {
   text-decoration: none;
   color: black;
-  display: inline-block;
-  padding-right: 30px;
-  margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  font-size: 1.3em;
-  font-weight: 500;
-  line-height: 1.5em;
-  letter-spacing: 2px;
-
+nav ul {
+   list-style-type: none;
 }
 
-header {
-	padding: 15px;
-	width: 100%;
+nav ul li {
+   display: inline;
 }
 
-section {
-	margin: 10px;
-	padding: 5px;
+nav ul li:not(:first-of-type) {
+   padding-left: 30px;
 }
 
 #engagement {
-	background-color: red;
-	width: 49%;
-  	display: inline-block;
- 	border: 1px solid black;
+   float: left;
+   width: 49%;
+   border: 1px solid black;
+   background-color: red;
+   display: inline-block;
 }
 
 #services {
-	border: 1px solid black;
-	background-color: yellow;
- 	width: 49%;
-  	display: inline-block;
-  	float: right;
+   float: right;
+   width: 49%;
+   border: 1px solid black;
+   background-color: yellow;
+   display: inline-block;
 }
 
-#engagement_sub {
-	width: 49%;
-  	display: inline-block;
- 	 margin: 20px;
+ul {
+  margin: 0;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  letter-spacing: 2px;
 }
 
-#services_sub {
-	width: 49%;
- 	display: inline-block;
-	float: left;
-	margin: 20px;
-}
-
-#section {
-	margin: 0 auto;
+#engagement div,
+#services div {
+   width: 49%;
+   display: inline-block;
+   margin: 20px;
 }
 
 .clearfix:after {
@@ -100,75 +98,55 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  h1 {
-    display: block;
-    text-align: center;
-  }
+   h1 {
+      float: none;
+      width: 100%;
+      border-bottom: 4px solid black;
+      text-align: center;
+      padding-bottom: .5em;
+   }
 
- nav {
- 	float: none;
- 	width: 100%;
- 	margin-left: auto;
- 	margin-right: auto;
- }
+   h1 span {
+      border: none;
+   }
 
- nav a {
-    display: inline-block;
-    margin: 0 1em 1em;
-    text-align: center;
-    padding: .1em;
-    }
+   nav {
+      display: block;
+      text-align: center;
+      float: none;
+      width: 100%;
+   }
 
- #engagement {
- 	background-color: yellow;
- 	}
+   nav ul li {
+      display: inline-block;
+      margin: 14px 12px 20px;
+   }
 
- }
+   nav ul li:not(:first-of-type) {
+      padding-left: 0;
+   }
+
+   #engagement {
+      background-color: yellow;
+   }
+}
 
 @media only screen and (max-width: 480px) {
-  	
-  h1 {
-  	padding-bottom: .5em;
-  } 	
+   h1 {
+      padding-bottom: .5em;
+   }
 
-  h1, nav {
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    margin: .2em;
-  }
-  
-  nav a {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    padding: .1em;
-  }
-  
-  h2 {
-    font-size: .8em;
-    display: inline;
-    font-weight: 400em;
-  }
+   nav a {
+    font-size: .5em;
+   }
+   #engagement {
+      background-color: red;
+      width: 100%;
+   }
 
-  ul {
-  	font-size: .75em;
-  }
-
-  section {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-  }
-
-  #engagement {
-  	background-color: red;
-  }
-
-  #services {
-    float: none;
-    margin-top: .5em;
-  }
-
+   #services {
+      
+      margin-top: .5em;
+      width: 100%;
+   }
 }
